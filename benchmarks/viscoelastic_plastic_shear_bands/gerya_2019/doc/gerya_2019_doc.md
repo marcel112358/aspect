@@ -10,7 +10,7 @@ In the first edition of the book the domain is a square of size $L=1000~\text{km
 ```{figure-md} fig:gerya_2019_shortening_block_setup
 <img src="./gerya_2019_shortening_block_setup.*" alt="shortening_block" width="80%"/>
 
-Shortening of visco-(elasto-)plastic block benchmark. Boundary conditions and material layout. The red, green and blue lines correspond to angles of $63.5\text{°}$, $45\text{°}$ and $26.5\text{°}$ respectively.
+Shortening of visco-(elasto-)plastic block benchmark. Boundary conditions and material layout. The red, green and blue lines correspond to angles of $63.5^{\circ}$, $45^{\circ}$ and $26.5^{\circ}$ respectively.
 ```
 
 
@@ -22,11 +22,11 @@ for uniformly refined meshes of level 4 and up: The size of the inclusion is the
 The velocity on the boundaries is $v_{bc}=5 \times 10^{-9}~\text{m s}^{-1}$ so that the background strain rate is $2 v_{bc}/L = 1 \times 10^{-13}~\text{s}^{-1}$.
 The weak medium and the weak inclusion have a viscosity 
 $\eta=1 \times 10^{17}~\text{Pa s}$ while 
-the block is visco-plastic with $c=100~\text{MPa}$ and $\phi=37\text{°}$. 
+the block is visco-plastic with $c=100~\text{MPa}$ and $\phi=37^{\circ}$. 
 Gravity is set to zero (material density values are then irrelevant) and pressure is normalised so that its volume average is zero.
 
-In the case of the von Mises ($\phi=0\text{°}$) failure criterion we expect the shear bands at $\frac{\pi}{4}=45\text{°}$ (see green line in Figure~\ref{fig:shortening_vp_block}). 
-When $\phi=37\text{°}$, we expect the shear band angle to be given by the Coulomb angle $\frac{\pi}{4} +\pm \frac{\phi}{2}$, i.e. $26.5\text{°}$ in compression and $63.5\text{°}$ in extension
+In the case of the von Mises ($\phi=0^{\circ}$) failure criterion we expect the shear bands at $\frac{\pi}{4}=45^{\circ}$ (see green line in Figure~\ref{fig:shortening_vp_block}). 
+When $\phi=37^{\circ}$, we expect the shear band angle to be given by the Coulomb angle $\frac{\pi}{4} +\pm \frac{\phi}{2}$, i.e. $26.5^{\circ}$ in compression and $63.5^{\circ}$ in extension
 represented by the blue and red lines in {numref}`fig:gerya_2019_shortening_block_setup` respectively. 
 
 There are 3 input files in `/benchmarks/viscoelastic_plastic_shear_bands/gerya_2019`.
