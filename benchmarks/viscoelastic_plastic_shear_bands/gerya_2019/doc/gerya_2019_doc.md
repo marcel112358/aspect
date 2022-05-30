@@ -1,5 +1,5 @@
 (sec:benchmarks:gerya_2019-shortening_block)=
-# Shortening of a visco-elasto-plastic block
+# Shortening of a visco-elasto-plastic block benchmark
 
 *This section was contributed by Marcel Saaro, Cedric Thieulot and John Naliboff.*
 
