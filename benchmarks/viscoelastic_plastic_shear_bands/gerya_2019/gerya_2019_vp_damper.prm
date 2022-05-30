@@ -3,7 +3,7 @@
 
 include $ASPECT_SOURCE_DIR/benchmarks/viscoelastic_plastic_shear_bands/gerya_2019/gerya_2019_vp.prm
 
-set Output directory = output_gerya_2019_damper
+set Output directory = output_gerya_2019_vp_damper
 
 subsection Mesh refinement
   set Initial global refinement = 5
